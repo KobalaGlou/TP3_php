@@ -1,0 +1,47 @@
+table.table td {
+    padding-bottom: 20px;
+
+  }
+
+  table.table tr:nth-child(even) {
+    background-color: #cafafc;
+  }
+
+  table.table th {
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+  }
+
+  table{
+    width:100%;
+  }
+
+  .container {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.card {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#nom, .prénom, .mail, .tel {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Pour espacer les éléments */
+.nom, .prénom, .mail {
+    margin-right: 10px;
+}
